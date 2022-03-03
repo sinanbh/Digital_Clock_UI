@@ -63,7 +63,7 @@ function setAlarm() {
     }
     if (nightValue == hours) {
         document.querySelector('#msg-text').innerText = "CLOSE YOUR EYES & GO TO SLEEP";
-        document.querySelector('#msg-img').style.background = "url(./assets/night.svg)";
+        document.querySelector('#msg-img').style.background = "url(./Assets/night.svg)";
         document.querySelector('#good-wish').innerText = "GOOD NIGHT !!"
     }
 
